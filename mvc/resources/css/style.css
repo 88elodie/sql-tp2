@@ -1,0 +1,107 @@
+body{
+    margin:auto;
+    background: #eae2e0;
+    font-family: ocr-a-std, sans-serif;
+    font-weight: 300;
+    color: grey;
+  }
+  
+  
+  .container {
+    margin: 50px;
+  }
+  
+  table.listing {
+      border-spacing: 0px;
+      width: 80%;
+      border: 1px solid grey;
+  }
+  
+  table.listing th, table.listing td {
+      border: 1px solid grey;
+      height: 30px;
+      padding: 5px;
+  }
+  
+  input, select {
+    padding: 6px;
+    display:block;
+    margin: 5px;
+  }
+  
+  .navigation {
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    background: rgb(186, 158, 195);
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+   
+  .navigation a:hover {
+    background: #8d79b7;
+  }
+
+  .forum-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+  }
+  .forum-container>div {
+    background-color: #ddcbc7;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  h2, h3 {
+    color:black;
+  }
+
+  h2 {
+    font-family: fig-serif, sans-serif;
+    font-size: 40px;
+  }
+
+  input {
+    font-family: inherit;
+  }
+
+  span.author {
+    color:rgb(130, 102, 139);
+  }
+
+  a.edit{
+    color: rgb(195, 108, 212);
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  form.delete{
+    display: inline-block;
+
+  }
+
+  input.delete {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: rgb(195, 108, 212);
+    font-size: 16px;
+    padding: 0px;
+    font-family: inherit;
+    font-weight: inherit;
+  }
+
+  footer {
+    padding-top: 20px;
+    margin-top: 50px;
+  }
